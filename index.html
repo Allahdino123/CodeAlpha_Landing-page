@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Hamburger Menu with HTML, CSS, & JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+</head>
+
+<body>
+    <header>
+         <a href="#">Web Developer</a>
+        <div>
+            <ul id="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#course">Course</a></li>
+                <li><a href="#registraion">Registraion</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </header>
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <div class="hero-devider">
+            <div class="hero-details">
+                <h1>World's Best <br> <span>JavaScript Courses</span></h1>
+                <h3></h3>
+                <h5>Pakistan highest rated JavaScript since 2023.</h5>
+                <h5>Teaching over <strong>1.7Million</strong> students worldwide.</h5>
+            </div>
+            <div class="hero-img">
+                <img src="home (1).png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-dev">
+            <div class="about-img">
+                <img src="about (2).png" alt="">
+            </div>
+            <div class="about-detials">
+                <h2>About Us</h2>
+                <h3></h3>
+                <p>A JavaScript course typically covers various aspects of JavaScript programming, including the
+                    language's fundamentals, advanced concepts, and practical applications. The course can vary in
+                    length and complexity, depending on whether it's an introductory course for beginners or an advanced
+                    course for experienced developers. Here's an overview of what you might expect in a JavaScript
+                    course:</p>
+
+                <button id="btn"> Learn Course</button>
+
+                <div class="pro-links">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  ********** COURSES *********** -->
+    <section id="course">
+        <h1>Latest Frontend Developer Courses</h1>
+        <p>We are providing a worldwide course for the Biginners</p>
+        <div class="course-box">
+            <div class="courses">
+                <img src="c1.jpeg" alt="" />
+                <div class="details">
+                    <span>Updated 14/08/23</span>
+                    <h6>HTML5 Biginners Course</h6>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(5k)</span>
+                    </div>
+                </div>
+                <div class="cost">$78.99</div>
+            </div>
+
+            <div class="courses">
+                <img src="c2.jpeg" alt="" />
+                <div class="details">
+                    <span>Updated 14/08/23</span>
+                    <h6>CSS3 Biginners Course</h6>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(5k)</span>
+                    </div>
+                </div>
+                <div class="cost">$78.99</div>
+            </div>
+
+            <div class="courses">
+                <img src="c3.jpeg" alt="" />
+                <div class="details">
+                    <span>Updated 14/08/23</span>
+                    <h6>JavaScript Biginners Course</h6>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(5k)</span>
+                    </div>
+                </div>
+                <div class="cost">$78.99</div>
+            </div>
+
+            <div class="courses">
+                <img src="c4.jpeg"" />
+            <div class=" details">
+                <span>Updated 14/08/23</span>
+                <h6>BootStrap Biginners Course</h6>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(5k)</span>
+                </div>
+            </div>
+            <div class="cost">$78.99</div>
+        </div>
+
+        <div class="courses">
+            <img src="c5.png" alt="" />
+            <div class="details">
+                <span>Updated 14/08/23</span>
+                <h6>React JS Biginners Course</h6>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(5k)</span>
+                </div>
+            </div>
+            <div class="cost">$78.99</div>
+        </div>
+
+        <div class="courses">
+            <img src="c6.png" alt="" />
+            <div class="details">
+                <span>Updated 14/08/23</span>
+                <h6>API Biginners Course</h6>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(5k)</span>
+                </div>
+            </div>
+            <div class="cost">$78.99</div>
+        </div>
+        </div>
+    </section>
+
+    <section id="registraion">
+        <div class="reg-detials">
+            <h4>Get 100 Online Courses for Free</h4>
+            <h2>Regsiter To Get It</h2>
+            <div>
+                <p>Days <br><span>29</span></p>
+                <p>Hours <br> <span>23</span></p>
+                <p>Minutes<br><span>06</span></p>
+                <p>Seconds<br><span>49</span></p>
+            </div>
+        </div>
+        <div class="form">
+            <h3>Create Free Account NOW!</h3>
+            <form id="form">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email addrss">
+                <input type="text" name="" id="" placeholder="Phone Number">
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="form">
+            <form action="">
+                <div>
+                    <input type="text" placeholder="FirstName">
+                    <input type="text" placeholder="LastName">
+                </div>
+                <input type="text" placeholder="Email addrss">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <button>Sent Massage</button>
+            </form>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.685631878372!2d68.94597187376134!3d26.043840096892488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394bd7b2e41bce53%3A0xea0183ea29dd55f5!2sSanghar!5e0!3m2!1sen!2s!4v1697354034300!5m2!1sen!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="links">
+                <h3>Our Links</h3>
+                <li>Home</li>
+                <li>About</li>
+                <li>Course</li>
+                <li>Registraion</li>
+                <li>Contact</li>
+                <div class="pro-links">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+          
+            <div class="links">
+                <h3>
+                    Features
+                </h3>
+                <li>Web App</li>
+                <li>Game</li>
+                <li>Qiuz</li>
+                <li>E-Commerce</li>
+          
+            
+            </div>
+            <div class="links">
+                <h3>Skills</h3>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS3</li>
+                <li>BootStrap</li>
+                <li>React JS</li>
+            
+            </div>
+           <div class="form">
+            <h3>Newsletter</h3>
+            <p>You can trust us. we only send promo offer,</p>
+            <input type="text" Email>
+            <button>Enroll Free</button>
+           </div>
+        </div>
+        <p>Copyright @2023 by Allah Dino</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
